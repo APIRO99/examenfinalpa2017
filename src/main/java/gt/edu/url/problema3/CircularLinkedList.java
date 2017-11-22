@@ -63,6 +63,10 @@ public class CircularLinkedList<E> {
 		}
 		size++;
 	}
+        
+        public void getNext(){
+            
+        }
 	
 	public void addLast(E e) {
 		addFirst(e);
